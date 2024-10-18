@@ -1,0 +1,55 @@
+.top-part{
+    width: 100%;
+    background-image: url(https://preview.colorlib.com/theme/bizpro/images/home/slide-1.jpg);
+    height: 85vh;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+    .navbar{
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        .navbar-left{
+            padding: 5px;
+        }
+
+        .navbar-right{
+            .icon{
+                padding: 10px;
+                display: none;
+                @include responsive (large) {
+                    display: flex;
+                  }
+            }
+            ul{
+                display: flex;
+                gap: 20px;
+                padding: 20px;
+                 @include responsive (large) {
+                display: none;
+              }
+            }
+        }
+    }
+    .text{
+        text-align: center;
+        font-size: xx-large;
+        padding: 12%;
+        // gap: 20px;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        h1{
+            padding: 10px;
+        }
+        h3{
+            padding: 10px;
+        }
+        button{
+            padding: 15px;
+            
+           
+        }
+    }
+}

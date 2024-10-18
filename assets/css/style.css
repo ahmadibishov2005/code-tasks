@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.top-part {
+  color: white;
+}
+.top-part .navbar-right ul a {
+  color: white;
+}
+
+.img-text button {
+  background-color: transparent;
+  border: 1px solid red;
+  color: white;
+}
+
+.top-part {
+  width: 100%;
+  background-image: url(https://preview.colorlib.com/theme/bizpro/images/home/slide-1.jpg);
+  height: 85vh;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.top-part .navbar {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.top-part .navbar .navbar-left {
+  padding: 5px;
+}
+.top-part .navbar .navbar-right .icon {
+  padding: 10px;
+  display: none;
+}
+@media (max-width: 1200px) {
+  .top-part .navbar .navbar-right .icon {
+    display: flex;
+  }
+}
+.top-part .navbar .navbar-right ul {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+@media (max-width: 1200px) {
+  .top-part .navbar .navbar-right ul {
+    display: none;
+  }
+}
+.top-part .text {
+  text-align: center;
+  font-size: xx-large;
+  padding: 12%;
+}
+.top-part .text h1 {
+  padding: 10px;
+}
+.top-part .text h3 {
+  padding: 10px;
+}
+.top-part .text button {
+  padding: 15px;
+}
+
+.main-part .about-text {
+  text-align: center;
+  padding: 0px;
+  font-size: larger;
+}
+.main-part .about-text h1 {
+  font-size: 40px;
+  padding: 30px;
+}
+.main-part .about-text p {
+  font-size: large;
+}
+.main-part .about-boxes .fa-user {
+  font-size: 30px;
+}
